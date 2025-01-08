@@ -1,0 +1,39 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #f6fafd;
+}
+
+.coursesWrapper{
+    padding: 20px;
+    width: 100%;
+    min-height: 70%;
+}
+
+.courses{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.course{
+    /* text-align: center; */
+    background-color: #26aa1c;
+    border-radius: 12px;
+    width: 250px;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    line-height: 10px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.course h3{
+    line-height: 20px;
+}
+

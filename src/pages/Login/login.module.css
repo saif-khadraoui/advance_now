@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+}
+
+form input{
+    padding: 3px;
+    outline: none;
+    border: 1px solid black;
+}
+
+form p{
+    font-size: 12px;
+}
+
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonWrapper button{
+    width: 50%;
+    cursor: pointer;
+    background-color: #26aa1c;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 3px;
+}

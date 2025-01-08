@@ -1,0 +1,41 @@
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.skills{
+    min-height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    background-color: #f6fafd;
+
+}
+
+.skillsWrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 20px;
+}
+
+.skill{
+    width: 350px;
+    height: fit-content;
+    background-color: #26aa1c;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+@media all and (max-width: 768px) {
+    .skills{
+        align-items: center;
+    }
+}

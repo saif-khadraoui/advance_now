@@ -1,0 +1,41 @@
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.course{
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #f6fafd;
+    padding: 20px;
+}
+
+.courseWrapper{
+    width: 60%;
+}
+
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonWrapper button{
+    padding: 5px 3px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #26aa1c;
+    color: white;
+    width: 60px;
+}
+
+@media all and (max-width: 768px) {
+    .courseWrapper{
+        width: 80%;
+    }
+}
