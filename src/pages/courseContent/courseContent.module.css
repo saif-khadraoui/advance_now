@@ -7,6 +7,7 @@
 .courseContent{
     min-height: 70%;
     padding: 20px;
+    text-align: center;
 }
 
 .courseContentInformation{
@@ -14,6 +15,8 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    text-align: center;
+
 }
 
 .courseContentInformation button{
